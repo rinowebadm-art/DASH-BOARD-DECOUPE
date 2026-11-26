@@ -5544,6 +5544,5122 @@
     "2026-11-23",
     "2026-11-25"
   ],
+  "rcDetail": [
+    {
+      "date": "2026-01-12",
+      "agent": "DDA",
+      "nom": "ANDRIANARIVELO",
+      "prenoms": "Sarindra"
+    },
+    {
+      "date": "2026-01-12",
+      "agent": "DDA",
+      "nom": "ANDRIANARIVELO",
+      "prenoms": "Sarindra"
+    },
+    {
+      "date": "2026-01-14",
+      "agent": "XYL",
+      "nom": "RAKOTONIRINA",
+      "prenoms": "Mamitiana"
+    },
+    {
+      "date": "2026-01-16",
+      "agent": "DDD",
+      "nom": "RAZANATOTO",
+      "prenoms": "Philemon"
+    },
+    {
+      "date": "2026-01-16",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-01-26",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-01-21",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-01-26",
+      "agent": "XYV",
+      "nom": "RANDRIAMANANTENA",
+      "prenoms": "Norolandy-Joselucia"
+    },
+    {
+      "date": "2026-01-30",
+      "agent": "XBB",
+      "nom": "RAKOTONDRAMANANA",
+      "prenoms": "Aina Mahefa"
+    },
+    {
+      "date": "2026-02-04",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-02-05",
+      "agent": "XZC",
+      "nom": "RAKOTONDRAJOA",
+      "prenoms": "Jinnot Florin"
+    },
+    {
+      "date": "2026-02-04",
+      "agent": "XYF",
+      "nom": "RAMANDIMBIARISOA",
+      "prenoms": "Mickael"
+    },
+    {
+      "date": "2026-02-09",
+      "agent": "DDD",
+      "nom": "RAZANATOTO",
+      "prenoms": "Philemon"
+    },
+    {
+      "date": "2026-02-10",
+      "agent": "DDD",
+      "nom": "RAZANATOTO",
+      "prenoms": "Philemon"
+    },
+    {
+      "date": "2026-02-16",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-02-13",
+      "agent": "XBB",
+      "nom": "RAKOTONDRAMANANA",
+      "prenoms": "Aina Mahefa"
+    },
+    {
+      "date": "2026-02-13",
+      "agent": "XBB",
+      "nom": "RAKOTONDRAMANANA",
+      "prenoms": "Aina Mahefa"
+    },
+    {
+      "date": "2026-02-18",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-02-16",
+      "agent": "XYL",
+      "nom": "RAKOTONIRINA",
+      "prenoms": "Mamitiana"
+    },
+    {
+      "date": "2026-02-23",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-02-23",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-02-21",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-02-26",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-02-25",
+      "agent": "XBC",
+      "nom": "ANDRIAMANANTSOA",
+      "prenoms": "Yves Rohan"
+    },
+    {
+      "date": "2026-02-27",
+      "agent": "DKA",
+      "nom": "Dida",
+      "prenoms": "Nicolas"
+    },
+    {
+      "date": "2026-02-26",
+      "agent": "DBO",
+      "nom": "SOANARIVO",
+      "prenoms": "Sadia"
+    },
+    {
+      "date": "2026-02-25",
+      "agent": "XBC",
+      "nom": "ANDRIAMANANTSOA",
+      "prenoms": "Yves Rohan"
+    },
+    {
+      "date": "2026-03-07",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-03-06",
+      "agent": "XBD",
+      "nom": "FANOMEZANTSOA",
+      "prenoms": "Miray Nilaina"
+    },
+    {
+      "date": "2026-03-06",
+      "agent": "XBD",
+      "nom": "FANOMEZANTSOA",
+      "prenoms": "Miray Nilaina"
+    },
+    {
+      "date": "2026-03-11",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-03-10",
+      "agent": "XBD",
+      "nom": "FANOMEZANTSOA",
+      "prenoms": "Miray Nilaina"
+    },
+    {
+      "date": "2026-03-03",
+      "agent": "XXK",
+      "nom": "",
+      "prenoms": ""
+    },
+    {
+      "date": "2026-03-05",
+      "agent": "DGE",
+      "nom": "RASOAMANANA",
+      "prenoms": "Jean-Luc"
+    },
+    {
+      "date": "2026-03-13",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-03-13",
+      "agent": "XCE",
+      "nom": "RANIVOMALALA",
+      "prenoms": "Tiana Nomena"
+    },
+    {
+      "date": "2026-03-13",
+      "agent": "DFA",
+      "nom": "BAVY",
+      "prenoms": "Aline"
+    },
+    {
+      "date": "2026-03-12",
+      "agent": "XCD",
+      "nom": "RAMANANTENASOA",
+      "prenoms": "Narindra Cedrica"
+    },
+    {
+      "date": "2026-03-19",
+      "agent": "XYL",
+      "nom": "RAKOTONIRINA",
+      "prenoms": "Mamitiana"
+    },
+    {
+      "date": "2026-03-20",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-03-25",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-03-25",
+      "agent": "XCE",
+      "nom": "RANIVOMALALA",
+      "prenoms": "Tiana Nomena"
+    },
+    {
+      "date": "2026-03-27",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-04-01",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-04-27",
+      "agent": "XBC",
+      "nom": "ANDRIAMANANTSOA",
+      "prenoms": "Yves Rohan"
+    },
+    {
+      "date": "2026-05-15",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-05-28",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-05-25",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-05-27",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-05-27",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-05-28",
+      "agent": "DFA",
+      "nom": "BAVY",
+      "prenoms": "Aline"
+    },
+    {
+      "date": "2026-05-28",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-05-28",
+      "agent": "DKA",
+      "nom": "Dida",
+      "prenoms": "Nicolas"
+    },
+    {
+      "date": "2026-06-01",
+      "agent": "DFA",
+      "nom": "BAVY",
+      "prenoms": "Aline"
+    },
+    {
+      "date": "2026-06-01",
+      "agent": "DFA",
+      "nom": "BAVY",
+      "prenoms": "Aline"
+    },
+    {
+      "date": "2026-06-01",
+      "agent": "DFA",
+      "nom": "BAVY",
+      "prenoms": "Aline"
+    },
+    {
+      "date": "2026-05-29",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-05-29",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-05-30",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-05-31",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-06-03",
+      "agent": "DFA",
+      "nom": "BAVY",
+      "prenoms": "Aline"
+    },
+    {
+      "date": "2026-06-08",
+      "agent": "DDA",
+      "nom": "ANDRIANARIVELO",
+      "prenoms": "Sarindra"
+    },
+    {
+      "date": "2026-06-05",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-06-10",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-06-18",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-06-17",
+      "agent": "XXK",
+      "nom": "",
+      "prenoms": ""
+    },
+    {
+      "date": "2026-06-18",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-06-18",
+      "agent": "DFA",
+      "nom": "BAVY",
+      "prenoms": "Aline"
+    },
+    {
+      "date": "2026-06-22",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-06-23",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-05-05",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-06-30",
+      "agent": "XBB",
+      "nom": "RAKOTONDRAMANANA",
+      "prenoms": "Aina Mahefa"
+    },
+    {
+      "date": "2026-07-02",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-07-08",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-06-30",
+      "agent": "XBB",
+      "nom": "RAKOTONDRAMANANA",
+      "prenoms": "Aina Mahefa"
+    },
+    {
+      "date": "2026-07-16",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-07-27",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-08-27",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-08-26",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-08-16",
+      "agent": "XZC",
+      "nom": "RAKOTONDRAJOA",
+      "prenoms": "Jinnot Florin"
+    },
+    {
+      "date": "2026-08-19",
+      "agent": "DFA",
+      "nom": "BAVY",
+      "prenoms": "Aline"
+    },
+    {
+      "date": "2026-09-02",
+      "agent": "DDA",
+      "nom": "ANDRIANARIVELO",
+      "prenoms": "Sarindra"
+    },
+    {
+      "date": "2026-09-10",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-09-10",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-09-10",
+      "agent": "DFA",
+      "nom": "BAVY",
+      "prenoms": "Aline"
+    },
+    {
+      "date": "2026-09-15",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-09-17",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-09-17",
+      "agent": "DDD",
+      "nom": "RAZANATOTO",
+      "prenoms": "Philemon"
+    },
+    {
+      "date": "2026-09-21",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-09-23",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-09-30",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-09-28",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-09-30",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-10-06",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-10-06",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-10-06",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-10-11",
+      "agent": "XZC",
+      "nom": "RAKOTONDRAJOA",
+      "prenoms": "Jinnot Florin"
+    },
+    {
+      "date": "2026-10-09",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-10-09",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-10-14",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-10-14",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-10-13",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-10-21",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-10-21",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-10-20",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-10-25",
+      "agent": "XXK",
+      "nom": "",
+      "prenoms": ""
+    },
+    {
+      "date": "2026-10-25",
+      "agent": "XXK",
+      "nom": "",
+      "prenoms": ""
+    },
+    {
+      "date": "2026-10-25",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-10-25",
+      "agent": "XXK",
+      "nom": "",
+      "prenoms": ""
+    },
+    {
+      "date": "2026-10-25",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-10-30",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-10-21",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-10-30",
+      "agent": "DFA",
+      "nom": "BAVY",
+      "prenoms": "Aline"
+    },
+    {
+      "date": "2026-11-04",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-11-04",
+      "agent": "DFA",
+      "nom": "BAVY",
+      "prenoms": "Aline"
+    },
+    {
+      "date": "2026-11-04",
+      "agent": "XYL",
+      "nom": "RAKOTONIRINA",
+      "prenoms": "Mamitiana"
+    },
+    {
+      "date": "2026-11-04",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-11-06",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-11-06",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-11-04",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-11-07",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-11-08",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-11-03",
+      "agent": "XBC",
+      "nom": "ANDRIAMANANTSOA",
+      "prenoms": "Yves Rohan"
+    },
+    {
+      "date": "2026-11-12",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-11-11",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    }
+  ],
+  "riDetail": [
+    {
+      "date": "2026-01-05",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-01-05",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-01-05",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-01-05",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-01-05",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-01-07",
+      "agent": "DKA",
+      "nom": "Dida",
+      "prenoms": "Nicolas"
+    },
+    {
+      "date": "2026-01-06",
+      "agent": "DBO",
+      "nom": "SOANARIVO",
+      "prenoms": "Sadia"
+    },
+    {
+      "date": "2026-01-06",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-01-06",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-01-06",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-01-06",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-01-06",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-01-06",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-01-07",
+      "agent": "DKA",
+      "nom": "Dida",
+      "prenoms": "Nicolas"
+    },
+    {
+      "date": "2026-01-07",
+      "agent": "DKA",
+      "nom": "Dida",
+      "prenoms": "Nicolas"
+    },
+    {
+      "date": "2026-01-07",
+      "agent": "DKA",
+      "nom": "Dida",
+      "prenoms": "Nicolas"
+    },
+    {
+      "date": "2026-01-08",
+      "agent": "DDD",
+      "nom": "RAZANATOTO",
+      "prenoms": "Philemon"
+    },
+    {
+      "date": "2026-01-09",
+      "agent": "DBO",
+      "nom": "SOANARIVO",
+      "prenoms": "Sadia"
+    },
+    {
+      "date": "2026-01-09",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-01-14",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-01-14",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-01-16",
+      "agent": "DKA",
+      "nom": "Dida",
+      "prenoms": "Nicolas"
+    },
+    {
+      "date": "2026-01-16",
+      "agent": "DKA",
+      "nom": "Dida",
+      "prenoms": "Nicolas"
+    },
+    {
+      "date": "2026-01-14",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-01-14",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-01-14",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-01-18",
+      "agent": "XCD",
+      "nom": "RAMANANTENASOA",
+      "prenoms": "Narindra Cedrica"
+    },
+    {
+      "date": "2026-01-18",
+      "agent": "XCD",
+      "nom": "RAMANANTENASOA",
+      "prenoms": "Narindra Cedrica"
+    },
+    {
+      "date": "2026-01-17",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-01-22",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-01-19",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-01-19",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-01-19",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-01-20",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-01-20",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-01-20",
+      "agent": "DKA",
+      "nom": "Dida",
+      "prenoms": "Nicolas"
+    },
+    {
+      "date": "2026-01-22",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-01-22",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-01-23",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-01-27",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-01-27",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-01-29",
+      "agent": "DKA",
+      "nom": "Dida",
+      "prenoms": "Nicolas"
+    },
+    {
+      "date": "2026-02-01",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-02-02",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-02-02",
+      "agent": "DBO",
+      "nom": "SOANARIVO",
+      "prenoms": "Sadia"
+    },
+    {
+      "date": "2026-02-02",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-02-03",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-02-03",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-02-06",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-02-06",
+      "agent": "DDD",
+      "nom": "RAZANATOTO",
+      "prenoms": "Philemon"
+    },
+    {
+      "date": "2026-02-06",
+      "agent": "DDD",
+      "nom": "RAZANATOTO",
+      "prenoms": "Philemon"
+    },
+    {
+      "date": "2026-02-08",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-02-09",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-02-09",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-02-09",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-02-13",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-02-13",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-02-13",
+      "agent": "DFA",
+      "nom": "BAVY",
+      "prenoms": "Aline"
+    },
+    {
+      "date": "2026-02-20",
+      "agent": "DFA",
+      "nom": "BAVY",
+      "prenoms": "Aline"
+    },
+    {
+      "date": "2026-02-22",
+      "agent": "XYL",
+      "nom": "RAKOTONIRINA",
+      "prenoms": "Mamitiana"
+    },
+    {
+      "date": "2026-02-21",
+      "agent": "XZF",
+      "nom": "RALAINDIMBY",
+      "prenoms": "Lovanirina Lucas"
+    },
+    {
+      "date": "2026-02-16",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-02-16",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-02-16",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-02-17",
+      "agent": "DDD",
+      "nom": "RAZANATOTO",
+      "prenoms": "Philemon"
+    },
+    {
+      "date": "2026-02-17",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-02-17",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-02-23",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-02-23",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-02-23",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-02-25",
+      "agent": "DFA",
+      "nom": "BAVY",
+      "prenoms": "Aline"
+    },
+    {
+      "date": "2026-02-26",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-02-26",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-02-27",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-03-02",
+      "agent": "DFA",
+      "nom": "BAVY",
+      "prenoms": "Aline"
+    },
+    {
+      "date": "2026-03-02",
+      "agent": "XBB",
+      "nom": "RAKOTONDRAMANANA",
+      "prenoms": "Aina Mahefa"
+    },
+    {
+      "date": "2026-03-02",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-03-03",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-03-03",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-03-03",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-03-04",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-03-04",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-03-04",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-03-04",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-03-05",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-03-05",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-03-06",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-03-06",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-03-06",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-03-06",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-03-06",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-03-06",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-03-06",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-03-06",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-03-06",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-03-06",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-03-06",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-03-06",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-03-06",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-03-09",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-03-09",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-03-09",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-03-09",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-03-09",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-03-09",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-03-09",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-03-09",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-03-09",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-03-09",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-03-09",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-03-09",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-03-09",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-03-09",
+      "agent": "XXM",
+      "nom": "MAKY",
+      "prenoms": "Valérie"
+    },
+    {
+      "date": "2026-03-10",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-03-10",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-03-10",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-03-10",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-03-10",
+      "agent": "XXM",
+      "nom": "MAKY",
+      "prenoms": "Valérie"
+    },
+    {
+      "date": "2026-03-10",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-03-10",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-03-10",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-03-11",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-03-12",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-03-12",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-03-12",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-03-11",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-03-12",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-03-13",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-03-13",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-03-17",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-03-17",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-03-17",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-03-18",
+      "agent": "XBD",
+      "nom": "FANOMEZANTSOA",
+      "prenoms": "Miray Nilaina"
+    },
+    {
+      "date": "2026-03-19",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-03-19",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-03-19",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "0226-03-19",
+      "agent": "XXM",
+      "nom": "MAKY",
+      "prenoms": "Valérie"
+    },
+    {
+      "date": "2026-03-20",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-03-20",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-03-20",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-03-20",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-03-20",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-03-22",
+      "agent": "DFA",
+      "nom": "BAVY",
+      "prenoms": "Aline"
+    },
+    {
+      "date": "2026-03-22",
+      "agent": "DFA",
+      "nom": "BAVY",
+      "prenoms": "Aline"
+    },
+    {
+      "date": "2026-03-23",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-03-24",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-03-25",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-03-30",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-03-30",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-03-30",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-03-31",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-03-31",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-03-31",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-03-31",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-03-31",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-04-01",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-04-01",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-04-01",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-04-01",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-04-03",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-04-04",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-04-03",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-04-03",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-04-04",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-04-04",
+      "agent": "XBC",
+      "nom": "ANDRIAMANANTSOA",
+      "prenoms": "Yves Rohan"
+    },
+    {
+      "date": "2026-04-05",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-04-05",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-04-05",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-04-06",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-04-08",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-04-08",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-04-10",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-04-10",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-04-11",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-04-11",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-04-11",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-04-11",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-04-11",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-04-11",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-04-11",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-04-11",
+      "agent": "XBB",
+      "nom": "RAKOTONDRAMANANA",
+      "prenoms": "Aina Mahefa"
+    },
+    {
+      "date": "2026-04-12",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-04-12",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-04-12",
+      "agent": "DKA",
+      "nom": "Dida",
+      "prenoms": "Nicolas"
+    },
+    {
+      "date": "2026-04-12",
+      "agent": "DKA",
+      "nom": "Dida",
+      "prenoms": "Nicolas"
+    },
+    {
+      "date": "2026-04-13",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-04-12",
+      "agent": "XBC",
+      "nom": "ANDRIAMANANTSOA",
+      "prenoms": "Yves Rohan"
+    },
+    {
+      "date": "2026-04-14",
+      "agent": "XXM",
+      "nom": "MAKY",
+      "prenoms": "Valérie"
+    },
+    {
+      "date": "2026-04-14",
+      "agent": "XXM",
+      "nom": "MAKY",
+      "prenoms": "Valérie"
+    },
+    {
+      "date": "2026-04-14",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-04-14",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-04-14",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-04-14",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-04-14",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-04-15",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "0206-04-15",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-04-15",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-04-15",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-04-16",
+      "agent": "XXM",
+      "nom": "MAKY",
+      "prenoms": "Valérie"
+    },
+    {
+      "date": "2026-04-16",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-04-14",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-04-16",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-04-17",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-04-17",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-04-17",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-04-17",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-04-17",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-04-18",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-04-18",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-04-18",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-04-20",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-04-20",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-04-21",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-04-21",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-04-21",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-04-21",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-04-21",
+      "agent": "DKA",
+      "nom": "Dida",
+      "prenoms": "Nicolas"
+    },
+    {
+      "date": "2026-04-22",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-04-24",
+      "agent": "XYL",
+      "nom": "RAKOTONIRINA",
+      "prenoms": "Mamitiana"
+    },
+    {
+      "date": "2026-04-24",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-04-24",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-04-24",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-04-24",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-04-24",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-04-24",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-04-24",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-04-24",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-04-24",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-04-25",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-04-25",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-04-26",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-04-26",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-04-26",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-04-26",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-04-25",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-04-25",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-04-24",
+      "agent": "DKA",
+      "nom": "Dida",
+      "prenoms": "Nicolas"
+    },
+    {
+      "date": "2026-04-28",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-04-28",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-04-28",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-04-28",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-04-28",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-04-27",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-04-29",
+      "agent": "XBC",
+      "nom": "ANDRIAMANANTSOA",
+      "prenoms": "Yves Rohan"
+    },
+    {
+      "date": "2026-04-29",
+      "agent": "XBC",
+      "nom": "ANDRIAMANANTSOA",
+      "prenoms": "Yves Rohan"
+    },
+    {
+      "date": "2026-04-29",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-04-29",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-04-29",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-04-29",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-04-29",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-04-30",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2023-04-30",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2023-04-30",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-04-30",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-04-30",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-04-30",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-05-01",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-05-02",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-05-02",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-05-02",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-05-02",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-05-05",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-05-05",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-05-05",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-05-06",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-05-06",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-05-06",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-05-04",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-05-04",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-05-04",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-05-04",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-05-06",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-05-07",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-05-07",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-05-06",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-05-06",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-05-07",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-05-07",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-05-07",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-05-07",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-05-07",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-05-07",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-05-07",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-05-07",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-05-07",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-05-08",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-05-08",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-05-08",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-05-08",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-05-08",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-05-08",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-05-08",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-05-08",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-05-07",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-05-07",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-05-07",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-05-07",
+      "agent": "DKA",
+      "nom": "Dida",
+      "prenoms": "Nicolas"
+    },
+    {
+      "date": "2026-05-08",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-05-12",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-05-12",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-05-12",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-05-12",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-05-12",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-05-12",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-05-12",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-05-12",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-05-12",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-05-12",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-05-12",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-05-12",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-05-12",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-05-11",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-05-11",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-05-11",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-05-15",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-05-15",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-05-15",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-05-15",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-05-13",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-05-13",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-05-16",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-05-16",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-05-17",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-05-17",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-05-18",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-05-21",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-05-18",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-05-18",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-05-18",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-05-18",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-05-18",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-05-19",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-05-21",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-05-21",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-05-21",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-05-21",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-05-21",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-05-21",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-05-21",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-05-21",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-05-22",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-05-22",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-05-22",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-05-22",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-05-22",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-05-24",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-05-25",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-05-25",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-05-26",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-05-26",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-05-27",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-05-27",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-05-27",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-05-25",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-05-25",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-05-25",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-05-25",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-05-25",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-05-26",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-05-26",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-05-26",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-05-26",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-05-26",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-05-27",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-05-27",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-05-27",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-05-27",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-05-28",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-05-28",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-05-28",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-05-28",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-05-28",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-05-29",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-05-28",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-05-28",
+      "agent": "DKA",
+      "nom": "Dida",
+      "prenoms": "Nicolas"
+    },
+    {
+      "date": "2026-06-01",
+      "agent": "DDA",
+      "nom": "ANDRIANARIVELO",
+      "prenoms": "Sarindra"
+    },
+    {
+      "date": "2026-06-01",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-06-01",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-06-01",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-06-01",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-06-01",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-06-01",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-06-01",
+      "agent": "DFA",
+      "nom": "BAVY",
+      "prenoms": "Aline"
+    },
+    {
+      "date": "2026-06-01",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-06-01",
+      "agent": "DFA",
+      "nom": "BAVY",
+      "prenoms": "Aline"
+    },
+    {
+      "date": "2026-06-01",
+      "agent": "DFA",
+      "nom": "BAVY",
+      "prenoms": "Aline"
+    },
+    {
+      "date": "2026-06-01",
+      "agent": "XYL",
+      "nom": "RAKOTONIRINA",
+      "prenoms": "Mamitiana"
+    },
+    {
+      "date": "2026-06-01",
+      "agent": "DDA",
+      "nom": "ANDRIANARIVELO",
+      "prenoms": "Sarindra"
+    },
+    {
+      "date": "2026-06-01",
+      "agent": "DFA",
+      "nom": "BAVY",
+      "prenoms": "Aline"
+    },
+    {
+      "date": "2026-06-01",
+      "agent": "DDA",
+      "nom": "ANDRIANARIVELO",
+      "prenoms": "Sarindra"
+    },
+    {
+      "date": "2026-06-01",
+      "agent": "DDA",
+      "nom": "ANDRIANARIVELO",
+      "prenoms": "Sarindra"
+    },
+    {
+      "date": "2026-05-29",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-06-02",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-06-02",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-06-02",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-06-02",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-06-02",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-06-02",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-06-02",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-06-02",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-06-02",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-06-02",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-06-02",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-06-02",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-06-02",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-06-02",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-06-02",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-06-03",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-06-03",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-06-05",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-06-05",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-06-05",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-06-06",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-06-06",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-06-08",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-06-08",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-06-08",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-06-08",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-06-08",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-06-08",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-06-08",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-06-08",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-06-08",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-06-08",
+      "agent": "DDA",
+      "nom": "ANDRIANARIVELO",
+      "prenoms": "Sarindra"
+    },
+    {
+      "date": "2026-06-08",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-06-08",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-06-08",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-06-08",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-06-08",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-06-08",
+      "agent": "XBD",
+      "nom": "FANOMEZANTSOA",
+      "prenoms": "Miray Nilaina"
+    },
+    {
+      "date": "2026-06-08",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-06-08",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-06-08",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-06-08",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-06-08",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-06-09",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-06-09",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-06-09",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-06-09",
+      "agent": "XYL",
+      "nom": "RAKOTONIRINA",
+      "prenoms": "Mamitiana"
+    },
+    {
+      "date": "2026-06-09",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-06-10",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-06-10",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-06-10",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-06-10",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-06-11",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-06-11",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-06-11",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-06-11",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-06-11",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-06-11",
+      "agent": "DDA",
+      "nom": "ANDRIANARIVELO",
+      "prenoms": "Sarindra"
+    },
+    {
+      "date": "2026-06-11",
+      "agent": "DDA",
+      "nom": "ANDRIANARIVELO",
+      "prenoms": "Sarindra"
+    },
+    {
+      "date": "2026-06-11",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-06-11",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-06-11",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-06-11",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-06-11",
+      "agent": "DKA",
+      "nom": "Dida",
+      "prenoms": "Nicolas"
+    },
+    {
+      "date": "2026-06-11",
+      "agent": "DKA",
+      "nom": "Dida",
+      "prenoms": "Nicolas"
+    },
+    {
+      "date": "2026-06-11",
+      "agent": "DKA",
+      "nom": "Dida",
+      "prenoms": "Nicolas"
+    },
+    {
+      "date": "2026-06-11",
+      "agent": "DKA",
+      "nom": "Dida",
+      "prenoms": "Nicolas"
+    },
+    {
+      "date": "2026-06-11",
+      "agent": "DKA",
+      "nom": "Dida",
+      "prenoms": "Nicolas"
+    },
+    {
+      "date": "2026-06-12",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-06-14",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-06-14",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-06-14",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-06-14",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-06-14",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-06-14",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-06-14",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-06-16",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-06-17",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-06-17",
+      "agent": "DKA",
+      "nom": "Dida",
+      "prenoms": "Nicolas"
+    },
+    {
+      "date": "2026-06-17",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-06-17",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-06-17",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-06-17",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-06-17",
+      "agent": "DFA",
+      "nom": "BAVY",
+      "prenoms": "Aline"
+    },
+    {
+      "date": "2026-06-17",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-06-17",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-06-17",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-06-17",
+      "agent": "DKA",
+      "nom": "Dida",
+      "prenoms": "Nicolas"
+    },
+    {
+      "date": "2026-06-17",
+      "agent": "DKA",
+      "nom": "Dida",
+      "prenoms": "Nicolas"
+    },
+    {
+      "date": "2026-06-17",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-06-17",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-06-17",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-06-18",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-06-18",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-06-18",
+      "agent": "DFA",
+      "nom": "BAVY",
+      "prenoms": "Aline"
+    },
+    {
+      "date": "2026-06-18",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-06-18",
+      "agent": "XYL",
+      "nom": "RAKOTONIRINA",
+      "prenoms": "Mamitiana"
+    },
+    {
+      "date": "2026-06-18",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-06-18",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-06-18",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-06-18",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-06-21",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-06-21",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-06-19",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-06-19",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-06-19",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-06-19",
+      "agent": "DKA",
+      "nom": "Dida",
+      "prenoms": "Nicolas"
+    },
+    {
+      "date": "2026-06-22",
+      "agent": "XYL",
+      "nom": "RAKOTONIRINA",
+      "prenoms": "Mamitiana"
+    },
+    {
+      "date": "2026-06-22",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-06-22",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-06-22",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-06-24",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-06-24",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-06-25",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-06-25",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-06-24",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-06-24",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-06-24",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-06-24",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-06-24",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-06-27",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-06-27",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-06-27",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-06-28",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-06-28",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-06-28",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-06-28",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-06-28",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-06-29",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-06-29",
+      "agent": "DKA",
+      "nom": "Dida",
+      "prenoms": "Nicolas"
+    },
+    {
+      "date": "2026-07-02",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-07-02",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-07-02",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-07-02",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-07-02",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-07-02",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-07-07",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-07-07",
+      "agent": "DDD",
+      "nom": "RAZANATOTO",
+      "prenoms": "Philemon"
+    },
+    {
+      "date": "2026-07-07",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-07-02",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-07-01",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-07-01",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-07-01",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-07-01",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-07-01",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-07-06",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-07-06",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-07-06",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-07-02",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-07-02",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-07-03",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-07-03",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-07-03",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-07-09",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-07-10",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-07-10",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-07-10",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-07-11",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-07-08",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-07-08",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-07-08",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-07-08",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-07-08",
+      "agent": "XZC",
+      "nom": "RAKOTONDRAJOA",
+      "prenoms": "Jinnot Florin"
+    },
+    {
+      "date": "2026-07-13",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-07-16",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-07-17",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-07-19",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-07-19",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-07-15",
+      "agent": "XCD",
+      "nom": "RAMANANTENASOA",
+      "prenoms": "Narindra Cedrica"
+    },
+    {
+      "date": "2026-07-15",
+      "agent": "XCD",
+      "nom": "RAMANANTENASOA",
+      "prenoms": "Narindra Cedrica"
+    },
+    {
+      "date": "2026-07-15",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-07-15",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-07-15",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-07-20",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "0226-07-22",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-07-22",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-07-23",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-07-24",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-07-26",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-07-27",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-07-27",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-07-07",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-07-23",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-07-23",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-07-27",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-07-27",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-07-28",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-07-28",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-07-29",
+      "agent": "DDA",
+      "nom": "ANDRIANARIVELO",
+      "prenoms": "Sarindra"
+    },
+    {
+      "date": "2026-07-29",
+      "agent": "DJE",
+      "nom": "Razafindrasoa",
+      "prenoms": "Laurence"
+    },
+    {
+      "date": "2026-07-31",
+      "agent": "DED",
+      "nom": "SOARIZIKY",
+      "prenoms": "Marie Landricia"
+    },
+    {
+      "date": "2026-08-03",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-08-03",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-08-06",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-08-14",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-08-22",
+      "agent": "XBD",
+      "nom": "FANOMEZANTSOA",
+      "prenoms": "Miray Nilaina"
+    },
+    {
+      "date": "2026-09-04",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-08-30",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-08-30",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-08-30",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-08-30",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-08-31",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-08-31",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-08-31",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-09-04",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-09-04",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-09-05",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-09-01",
+      "agent": "XBD",
+      "nom": "FANOMEZANTSOA",
+      "prenoms": "Miray Nilaina"
+    },
+    {
+      "date": "2026-08-18",
+      "agent": "XZC",
+      "nom": "RAKOTONDRAJOA",
+      "prenoms": "Jinnot Florin"
+    },
+    {
+      "date": "2026-09-07",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-09-07",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-09-14",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-09-07",
+      "agent": "XBC",
+      "nom": "ANDRIAMANANTSOA",
+      "prenoms": "Yves Rohan"
+    },
+    {
+      "date": "2026-09-11",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-09-13",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-09-13",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-09-13",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-09-13",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-09-13",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-09-13",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-09-13",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-09-16",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-09-16",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-09-16",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-09-16",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-09-14",
+      "agent": "XBD",
+      "nom": "FANOMEZANTSOA",
+      "prenoms": "Miray Nilaina"
+    },
+    {
+      "date": "2026-09-16",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-09-16",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-09-16",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-09-16",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-09-16",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-09-18",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-09-17",
+      "agent": "DFA",
+      "nom": "BAVY",
+      "prenoms": "Aline"
+    },
+    {
+      "date": "2026-09-20",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-09-20",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-09-20",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-09-20",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-09-20",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-09-21",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-09-21",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-09-21",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-09-23",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-09-23",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "0226-09-23",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-09-24",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-09-23",
+      "agent": "XZC",
+      "nom": "RAKOTONDRAJOA",
+      "prenoms": "Jinnot Florin"
+    },
+    {
+      "date": "2026-09-22",
+      "agent": "XBD",
+      "nom": "FANOMEZANTSOA",
+      "prenoms": "Miray Nilaina"
+    },
+    {
+      "date": "2026-09-25",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-09-25",
+      "agent": "DKA",
+      "nom": "Dida",
+      "prenoms": "Nicolas"
+    },
+    {
+      "date": "2026-09-26",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-09-29",
+      "agent": "XBC",
+      "nom": "ANDRIAMANANTSOA",
+      "prenoms": "Yves Rohan"
+    },
+    {
+      "date": "2026-09-28",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-09-28",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-09-29",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-09-29",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-10-02",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-09-30",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-10-01",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-09-30",
+      "agent": "XZC",
+      "nom": "RAKOTONDRAJOA",
+      "prenoms": "Jinnot Florin"
+    },
+    {
+      "date": "2026-09-30",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-10-05",
+      "agent": "XBD",
+      "nom": "FANOMEZANTSOA",
+      "prenoms": "Miray Nilaina"
+    },
+    {
+      "date": "2026-10-06",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-10-06",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-10-06",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-10-06",
+      "agent": "DDB",
+      "nom": "TONGALAZA",
+      "prenoms": "Nayla Sidonie"
+    },
+    {
+      "date": "2026-10-06",
+      "agent": "XBD",
+      "nom": "FANOMEZANTSOA",
+      "prenoms": "Miray Nilaina"
+    },
+    {
+      "date": "2026-10-06",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-10-06",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-10-07",
+      "agent": "XZC",
+      "nom": "RAKOTONDRAJOA",
+      "prenoms": "Jinnot Florin"
+    },
+    {
+      "date": "2026-10-09",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-10-09",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-10-11",
+      "agent": "XZC",
+      "nom": "RAKOTONDRAJOA",
+      "prenoms": "Jinnot Florin"
+    },
+    {
+      "date": "2026-10-11",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-10-11",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-10-12",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-10-13",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-10-13",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-10-13",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-10-13",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-10-13",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-10-13",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-10-13",
+      "agent": "DDA",
+      "nom": "ANDRIANARIVELO",
+      "prenoms": "Sarindra"
+    },
+    {
+      "date": "2026-10-14",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-10-14",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-10-14",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-10-14",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-10-17",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-10-18",
+      "agent": "XZC",
+      "nom": "RAKOTONDRAJOA",
+      "prenoms": "Jinnot Florin"
+    },
+    {
+      "date": "2026-10-16",
+      "agent": "XYL",
+      "nom": "RAKOTONIRINA",
+      "prenoms": "Mamitiana"
+    },
+    {
+      "date": "2026-10-19",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-10-21",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-10-20",
+      "agent": "XBD",
+      "nom": "FANOMEZANTSOA",
+      "prenoms": "Miray Nilaina"
+    },
+    {
+      "date": "2026-10-21",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-10-21",
+      "agent": "XBB",
+      "nom": "RAKOTONDRAMANANA",
+      "prenoms": "Aina Mahefa"
+    },
+    {
+      "date": "2026-10-21",
+      "agent": "XYL",
+      "nom": "RAKOTONIRINA",
+      "prenoms": "Mamitiana"
+    },
+    {
+      "date": "2026-10-29",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-10-29",
+      "agent": "DEA",
+      "nom": "RAJAOFORIAKA",
+      "prenoms": "Faniriantsoa Heriniaina"
+    },
+    {
+      "date": "2026-10-29",
+      "agent": "DKA",
+      "nom": "Dida",
+      "prenoms": "Nicolas"
+    },
+    {
+      "date": "2026-10-30",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-10-30",
+      "agent": "DLC",
+      "nom": "RAKOTOVINELINA",
+      "prenoms": "Hartmann"
+    },
+    {
+      "date": "2026-11-02",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-11-03",
+      "agent": "XZC",
+      "nom": "RAKOTONDRAJOA",
+      "prenoms": "Jinnot Florin"
+    },
+    {
+      "date": "2026-11-05",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-11-05",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-11-06",
+      "agent": "XBD",
+      "nom": "FANOMEZANTSOA",
+      "prenoms": "Miray Nilaina"
+    },
+    {
+      "date": "2026-11-09",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-11-09",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-11-09",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "2026-11-10",
+      "agent": "DGB",
+      "nom": "RAZAFIALINIRINA",
+      "prenoms": "Larissa"
+    },
+    {
+      "date": "2026-11-10",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-11-10",
+      "agent": "XBD",
+      "nom": "FANOMEZANTSOA",
+      "prenoms": "Miray Nilaina"
+    },
+    {
+      "date": "2026-11-10",
+      "agent": "XBD",
+      "nom": "FANOMEZANTSOA",
+      "prenoms": "Miray Nilaina"
+    },
+    {
+      "date": "2026-11-12",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-11-12",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-11-17",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-11-18",
+      "agent": "DBI",
+      "nom": "HANITRINIAINA",
+      "prenoms": "Juola"
+    },
+    {
+      "date": "0226-11-18",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-11-18",
+      "agent": "DAE",
+      "nom": "BELAINA",
+      "prenoms": "Julia"
+    },
+    {
+      "date": "2026-11-19",
+      "agent": "XXN",
+      "nom": "RAKOTOARISON",
+      "prenoms": "Jean Geraldo"
+    },
+    {
+      "date": "2026-11-19",
+      "agent": "XZC",
+      "nom": "RAKOTONDRAJOA",
+      "prenoms": "Jinnot Florin"
+    },
+    {
+      "date": "2026-11-19",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-11-17",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-11-19",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-11-19",
+      "agent": "XXB",
+      "nom": "RAZAFY",
+      "prenoms": "Gilbert Meralco"
+    },
+    {
+      "date": "2026-11-20",
+      "agent": "DBN",
+      "nom": "RANDRIANANTOANDRO",
+      "prenoms": "Marc Olav"
+    },
+    {
+      "date": "2026-11-20",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-11-20",
+      "agent": "DHA",
+      "nom": "Bakary",
+      "prenoms": "Fidelys"
+    },
+    {
+      "date": "2026-11-23",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-11-21",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-11-21",
+      "agent": "XBE",
+      "nom": "RAZAFINDRATSARA",
+      "prenoms": "Soantenaina Andrea"
+    },
+    {
+      "date": "2026-11-22",
+      "agent": "XCG",
+      "nom": "RANDRIANOMBANA",
+      "prenoms": "Alison"
+    },
+    {
+      "date": "2026-11-22",
+      "agent": "XBC",
+      "nom": "ANDRIAMANANTSOA",
+      "prenoms": "Yves Rohan"
+    },
+    {
+      "date": "2026-11-23",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-11-23",
+      "agent": "DCE",
+      "nom": "CHAMSIDINE",
+      "prenoms": "Ismael Aly"
+    },
+    {
+      "date": "2026-11-25",
+      "agent": "DFA",
+      "nom": "BAVY",
+      "prenoms": "Aline"
+    }
+  ],
   "debut": "2026-11-01",
   "fin": "2026-11-25",
   "finPrevision": "2026-11-29",
@@ -5557,5 +10673,5 @@
       "recenses": 23
     }
   ],
-  "ts": 1795694595228
+  "ts": 1795695034477
 }
