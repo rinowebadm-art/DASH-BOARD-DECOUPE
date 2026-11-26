@@ -788,5 +788,65 @@
     });
     window.addEventListener('DOMContentLoaded', charger);
   </script>
+<script>
+  (() => {  
+    const onglet = document.getElementById('agents');  
+    if (!onglet) return;  
+    const bloc = document.createElement('section');  
+    bloc.className = 'panel detail-agents';  
+    bloc.innerHTML = `    
+    <h2>Volumes par agent</h2>    
+    <p class="note" role="status"></p>    
+    <div class="scroll">      
+    <table>        
+    <thead><tr><th>Agent</th><th>Site</th><th>Volume découpé</th></tr></thead>        
+    <tbody></tbody>      
+    </table>    
+    </div>`;  onglet.append(bloc);  
+    const statut = bloc.querySelector('[role="status"]');  
+    const corps = bloc.querySelector('tbody');  
+    const nombre = new Intl.NumberFormat('fr-FR');  
+    const normaliser = texte => String(texte ?? '').trim().normalize('NFD')    
+      .replace(/[\u0300-\u036f]/g, '').toLowerCase();  
+    function champ(libelle) {    return [...document.querySelectorAll('#content label')]      
+      .find(label => normaliser(label.textContent).startsWith(libelle))      ?.control;  }  let lignes = null;  let chargement = 0;  
+function afficher() {    if (lignes === null) return;    const debut = champ('du')?.value || '';    
+const fin = champ('au')?.value || '';    
+const selecteur = champ('site');    
+const choix = selecteur?.selectedOptions?.[0];    
+const site = normaliser(choix?.textContent);    
+const filtrerSite = !!site && !/^(tous|tout|all)\b/.test(site);    
+const totaux = new Map();    
+for (const ligne of lignes) {      
+if (debut && ligne.date < debut) 
+continue;      if (fin && ligne.date > fin) 
+continue;      if (filtrerSite && normaliser(ligne.site) !== site &&          normaliser(ligne.site) !== normaliser(choix.value)) 
+continue;      const cle = `${ligne.agent}|${ligne.site}`;      
+if (!totaux.has(cle)) {        totaux.set(cle, { agent: ligne.agent, site: ligne.site, volume: 0 });      }      totaux.get(cle).volume += ligne.volume;    }    
+const resultats = [...totaux.values()].sort((a, b) =>      b.volume - a.volume || a.agent.localeCompare(b.agent));    corps.replaceChildren();    
+for (const ligne of resultats) {      const tr = document.createElement('tr');      
+const agent = document.createElement('th');      agent.scope = 'row';      agent.textContent = ligne.agent;      tr.append(agent);      
+for (const valeur of [ligne.site, nombre.format(ligne.volume)]) {        
+const td = document.createElement('td');        
+td.textContent = valeur;        
+tr.append(td);      }      
+corps.append(tr);    }    
+statut.textContent = resultats.length      ? 'Volumes cumulés selon la période et le site sélectionnés.'      : 'Aucun volume par agent pour ces filtres.';  }  
+async function actualiserAgents() {    
+const numero = ++chargement;    statut.textContent = 'Chargement des volumes par agent…';    try {      
+const reponse = await fetch('./data.json', { cache: 'no-store' });      
+if (!reponse.ok) throw new Error(`HTTP ${reponse.status}`);      
+const donnees = await reponse.json();      
+if (numero !== chargement) return;      
+if (!Array.isArray(donnees.productionParAgent)) {        lignes = null;        
+corps.replaceChildren();        
+statut.textContent = 'Le détail par agent n’a pas encore été publié.';        
+return;      }      lignes = donnees.productionParAgent;      afficher();    } catch (erreur) {      
+if (numero !== chargement) return;      lignes = null;      corps.replaceChildren();      
+statut.textContent = 'Impossible de charger le détail par agent.';    }  }  
+    document.getElementById('content')?.addEventListener('change', afficher);  
+    document.querySelector('[data-page="agents"]')?.addEventListener('click', actualiserAgents);  
+    document.getElementById('refresh')?.addEventListener('click', actualiserAgents);  
+    actualiserAgents();})();</script>
 </body>
 </html>
