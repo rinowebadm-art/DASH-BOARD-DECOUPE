@@ -284,6 +284,52 @@
       #flowKpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       #flowKpis .kpi { min-height: 135px; }
     }
+  /* Découpeurs et Qualité */
+    #agents.panel, #quality > .panel, .detail-agents {
+      background: #f8fcff;
+      border: 1px solid #fff;
+      border-radius: 20px;
+      padding: clamp(14px, 2vw, 24px);
+      box-shadow: 0 8px 24px #183a4c12;
+      margin: 0 0 14px;
+    }
+    #agents h2, #quality h2 { color: #164453; font-size: 20px; margin-bottom: 6px; }
+    #qualityKpis .kpi {
+      display: grid;
+      justify-items: center;
+      align-content: center;
+      gap: 6px;
+      min-height: 125px;
+      padding: 15px;
+      border: 1px solid #fff;
+      border-radius: 20px;
+      text-align: center;
+      font-weight: 700;
+    }
+    #qualityKpis .kpi:first-child { background: #fae7cc; color: #794813; }
+    #qualityKpis .kpi:nth-child(2) { background: #e1e7fa; color: #34416e; }
+    #qualityKpis .kpi strong { font-size: clamp(30px, 4vw, 50px); margin: 0; }
+    #qualityKpis .note { background: #ffffffab; padding: 3px 11px; border-radius: 99px; }
+    #agents .scroll, #quality .scroll {
+      max-height: 440px;
+      overflow: auto;
+      border: 1px solid #d6e5ed;
+      border-radius: 12px;
+      margin-top: 10px;
+    }
+    #agents thead th, #quality thead th {
+      position: sticky;
+      top: 0;
+      background: #e4eff7;
+      color: #173e5b;
+    }
+    #agents tbody tr:nth-child(even), #quality tbody tr:nth-child(even) { background: #f0f6fa; }
+    #agents tbody tr:hover, #quality tbody tr:hover { background: #e9f5f4; }
+    .detail-agents .row { margin-top: 10px; }
+    .detail-agents label { flex: 0 1 220px; min-width: 0; }
+    .detail-agents input { width: 100%; }
+    .detail-agents .note[role="status"] { margin-top: 8px; }
+    .detail-agents tbody th { color: #225776; }
   </style>
 </head>
 <body>
