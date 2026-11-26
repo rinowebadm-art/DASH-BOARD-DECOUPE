@@ -179,6 +179,111 @@
         height: clamp(320px, 26vw, 390px);
       }
     }
+  /* En-tête et zones de données inspirés de LIRIS */
+    body {
+      background: linear-gradient(125deg, #d7eaf5, #e4f3ef 65%, #edf0fa);
+    }
+    header { background: #172d43; }
+    .wrap { max-width: none; }
+    .masthead { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 20px; padding-block: 20px; }
+    .masthead > div:first-child { min-width: 0; }
+    .masthead > .row { display: grid; justify-items: end; }
+    .masthead .eyebrow {
+      margin: 0 24px 5px 0;
+      padding: 8px 22px;
+      background: #2c4d66;
+      color: #fff;
+      letter-spacing: .04em;
+      text-transform: none;
+      clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 100%, 0 100%);
+    }
+    .masthead h1 {
+      padding: 14px 32px 14px 22px;
+      background: linear-gradient(100deg, #fff, #e8f0f5);
+      color: #172d43;
+      font-size: clamp(23px, 3vw, 38px);
+      text-transform: uppercase;
+      clip-path: polygon(0 0, calc(100% - 24px) 0, 100% 100%, 0 100%);
+    }
+    .masthead h1 span { color: #ad4117; }
+    #refresh { background: #fff; color: #172d43; border-color: #fff; border-radius: 999px; }
+    #content > nav { background: #fff; padding: 6px 8px 0; border-bottom: 1px solid #d1e0ea; }
+    #content > nav button { border: 0; border-radius: 8px 8px 0 0; padding-inline: 14px; }
+    #content > nav button[aria-pressed="true"] { background: #3174ae; color: #fff; }
+    .production-zone h2, .quality-zone h2 { margin-bottom: 12px; color: #164453; }
+    .production-zone h2 { font-size: 23px; }
+    #flowKpis { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    #flowKpis .kpi, #overviewQuality .kpi {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      justify-content: center;
+      gap: 8px;
+      min-width: 0;
+      min-height: 178px;
+      padding: 18px 14px;
+      overflow: hidden;
+      border: 1px solid #fff;
+      border-radius: 20px;
+      color: #164453;
+      text-align: center;
+      box-shadow: 0 8px 20px #183a4c12;
+    }
+    #flowKpis .kpi::before, #overviewQuality .kpi::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 32%;
+      width: 36%;
+      height: 4px;
+      border-radius: 0 0 8px 8px;
+      background: currentColor;
+      opacity: .45;
+    }
+    #flowKpis .kpi:nth-child(1) { background: linear-gradient(125deg, #d1f1fb, #a6dff6); }
+    #flowKpis .kpi:nth-child(2) { background: linear-gradient(125deg, #e8e6fa, #c9c9f0); }
+    #flowKpis .kpi.prod { background: linear-gradient(125deg, #d2f8ef, #9cE7d5); }
+    #flowKpis .kpi:nth-child(4) { background: linear-gradient(125deg, #fff2dd, #f5dcc3); color: #99421d; }
+    #flowKpis .kpi strong { font-size: clamp(26px, 3vw, 56px); margin: 0; overflow-wrap: anywhere; }
+    #flowKpis .kpi > span:first-child, #overviewQuality .kpi > span:first-child { font-weight: 700; }
+    #flowKpis .kpi .note, #overviewQuality .kpi .note {
+      padding: 5px 8px;
+      border-radius: 12px;
+      background: #ffffff91;
+      color: #355567;
+    }
+    #overviewQuality .kpi { min-height: 115px; background: #e9eef7; color: #434b78; }
+    #overviewQuality .kpi:hover { background: #dde6f5; }
+    #flux > .panel, #siteCards .site-card {
+      background: #f7fbfd;
+      border: 1px solid #fff;
+      border-radius: 20px;
+    }
+    #siteCards .site-card { text-align: center; }
+    #siteCards .site-card[aria-pressed="true"] { background: #e0eff7; border-color: #255b83; }
+    @media (min-width: 1050px) {
+      #flux {
+        display: grid;
+        grid-template-columns: minmax(220px, 1fr) minmax(0, 3.4fr);
+        grid-template-rows: none;
+        grid-template-areas: "prod prod" "qual qual" "sites chart" "cards chart";
+        gap: 14px 16px;
+        align-items: start;
+      }
+      #flux > .production-zone { grid-area: prod; }
+      #flux > .quality-zone { grid-area: qual; }
+      #flux > .panel { grid-area: chart; min-width: 0; }
+      #flux > .section-head, #noSites { grid-area: sites; }
+      #noSites { align-self: end; transform: translateY(100%); }
+      #siteCards { grid-area: cards; grid-template-columns: 1fr; }
+    }
+    @media (max-width: 820px) {
+      .masthead { grid-template-columns: minmax(0, 1fr); gap: 10px; }
+      .masthead > .row { display: flex; justify-content: flex-start; }
+      #flowKpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      #flowKpis .kpi { min-height: 135px; }
+    }
   </style>
 </head>
 <body>
@@ -186,7 +291,7 @@
     <div class="wrap masthead">
       <div>
         <p class="eyebrow">Pilotage production · Tana / Diégo</p>
-        <h1>Dashboard Découpe</h1>
+        <h1>Dashboard <span>Découpe</span></h1>
       </div>
       <div class="row">
         <button id="refresh" type="button">Actualiser</button>
@@ -217,7 +322,7 @@
     </div>
     <p id="periodError" class="panel" role="status" hidden>Choisis une période valide dans les dates disponibles.</p>
     <section id="flux" aria-label="Vue d’ensemble">
-      <div id="flowKpis" class="grid kpis"></div>
+      <div class="production-zone">        <h2>Pilotage de production</h2>        <div id="flowKpis" class="grid kpis"></div>      </div>      <div class="quality-zone">        <h2>Qualité · période sélectionnée</h2>        <div id="overviewQuality" class="grid pair"></div>      </div>
       <div class="panel">
         <div class="section-head">
           <h2>Prévu, reçu et découpé</h2>
@@ -554,12 +659,7 @@
       carte(cartes, 'Reçu global', recu);
       carte(cartes, libelle, realise, { classe: 'prod' });
       carte(cartes, 'QP globale', qp, { format: pf, detail: 'Reçu ÷ prévu sur les jours comparables' });
-      carte(cartes, 'Signalements RC', source.rc.filter(dansPeriode).length, {
-        classe: 'qual', detail: 'Voir le détail qualité', action: () => ouvrirPage('quality', true)
-      });
-      carte(cartes, 'Signalements RI', source.ri.filter(dansPeriode).length, {
-        classe: 'qual', detail: 'Voir le détail qualité', action: () => ouvrirPage('quality', true)
-      });
+      const qualiteAccueil = el('overviewQuality');      qualiteAccueil.replaceChildren();      carte(qualiteAccueil, 'Signalements RC', source.rc.filter(dansPeriode).length, {        classe: 'qual', detail: 'Voir le détail qualité', action: () => ouvrirPage('quality', true)      });      carte(qualiteAccueil, 'Signalements RI', source.ri.filter(dansPeriode).length, {        classe: 'qual', detail: 'Voir le détail qualité', action: () => ouvrirPage('quality', true)      });
       const notes = [];
       if (el('group').value === 'week') notes.push('Semaines regroupées à partir du lundi.');
       if (!site && Number.isFinite(realise) && Number.isFinite(recu)) {
