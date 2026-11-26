@@ -6,51 +6,105 @@
   <title>Dashboard Découpe</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
   <style>
+    :root {
+      --bg: #edf2f8;
+      --card: #fff;
+      --ink: #192941;
+      --muted: #4e6179;
+      --border: #dae3ef;
+      --blue: #245b93;
+      --teal: #117765;
+      --amber: #935212;
+      --soft: #f4f7fb;
+    }
     * { box-sizing: border-box; }
-    body { margin: 0; background: #eef0f7; color: #2b3358; font: 14px system-ui, sans-serif; }
-    header { padding: 24px; background: linear-gradient(135deg, #2b3358, #4a89c4); color: white; }
-    h1, h2, p { margin: 0 0 10px; }
-    header p { margin: 0; }
-    main { max-width: 1280px; margin: auto; padding: 16px; }
-    .panel, .kpi { background: white; border: 1px solid #e4e7f2; border-radius: 12px; padding: 14px; margin-bottom: 12px; }
-    .row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
-    nav { margin: 12px 0; }
-    button, input, select { font: inherit; padding: 7px 10px; border: 1px solid #d3daeb; border-radius: 7px; background: white; color: inherit; }
-    button { cursor: pointer; }
-    button:disabled { cursor: wait; opacity: .65; }
-    button[aria-pressed="true"] { background: #316e9e; color: white; border-color: #316e9e; }
-    .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(155px, 1fr)); gap: 10px; }
-    .kpi { border-top: 3px solid #4a89c4; }
-    .kpi strong { display: block; font-size: 24px; margin-top: 4px; font-variant-numeric: tabular-nums; }
-    .note { color: #526080; font-size: 13px; }
-    .plot { position: relative; height: 320px; }
+    body { margin: 0; color: var(--ink); background: var(--bg); font: 14px system-ui, sans-serif; }
+    h1, h2, p { margin: 0; }
+    h1 { font-size: clamp(25px, 4vw, 36px); line-height: 1.1; }
+    h2 { font-size: 17px; }
+    header { background: linear-gradient(105deg, #142b4b, #245b93); color: white; }
+    .wrap { max-width: 1440px; margin: auto; padding: 16px 22px; }
+    .masthead, .row { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; }
+    .masthead, .spread { justify-content: space-between; }
+    .eyebrow { color: #d6e7fa; font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; margin-bottom: 6px; }
+    #status { color: #e0edff; max-width: 440px; font-size: 12px; }
+    #refresh { background: transparent; color: white; border-color: #a8c8ea; }
+    .panel { background: var(--card); border: 1px solid var(--border); border-radius: 11px; padding: 14px; margin-bottom: 12px; }
+    .filters { align-items: end; }
+    label { display: grid; gap: 4px; font-size: 12px; color: var(--muted); font-weight: 650; }
+    button, input, select {
+      font: inherit; color: var(--ink); background: var(--card); border: 1px solid #bccce0;
+      border-radius: 7px; padding: 7px 10px; min-height: 36px;
+    }
+    button { cursor: pointer; font-weight: 650; }
+    button:disabled { opacity: .65; cursor: wait; }
+    button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }
+    header button:focus-visible { outline-color: white; }
+    nav { margin-bottom: 12px; }
+    nav button[aria-pressed="true"] { background: var(--blue); border-color: var(--blue); color: white; }
+    .note { font-size: 12px; color: var(--muted); line-height: 1.5; }
+    .filters + .note { margin-top: 8px; }
+    .grid { display: grid; gap: 10px; margin-bottom: 12px; }
+    .kpis { grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr)); }
+    .pair { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .kpi, .site-card {
+      min-width: 0; background: var(--card); border: 1px solid var(--border);
+      border-radius: 10px; padding: 12px 14px; text-align: left;
+    }
+    .kpi { border-top: 3px solid var(--blue); }
+    .kpi.prod { border-top-color: var(--teal); }
+    .kpi.qual { border-top-color: var(--amber); }
+    .kpi span, .site-card span { display: block; }
+    .kpi strong, .site-card strong {
+      display: block; font-size: clamp(22px, 3vw, 30px); font-weight: 700;
+      line-height: 1.15; margin: 5px 0; font-variant-numeric: tabular-nums;
+    }
+    button.kpi:hover, button.site-card:hover { background: var(--soft); border-color: var(--blue); }
+    .site-card[aria-pressed="true"] { background: var(--soft); border-color: var(--blue); box-shadow: inset 0 0 0 1px var(--blue); }
+    .site-card { overflow-wrap: anywhere; }
+    .site-card .site-name { color: var(--blue); font-weight: 750; }
+    .section-head { margin-bottom: 9px; }
+    .plot { position: relative; height: clamp(240px, 36vw, 355px); }
     .scroll { overflow-x: auto; }
-    table { width: 100%; min-width: 460px; border-collapse: collapse; }
-    th, td { padding: 10px; border-bottom: 1px solid #e4e7f2; text-align: right; font-variant-numeric: tabular-nums; }
-    th { background: #f5f6fb; }
+    table { width: 100%; min-width: 410px; border-collapse: collapse; }
+    th, td { padding: 9px 10px; border-bottom: 1px solid var(--border); text-align: right; font-variant-numeric: tabular-nums; }
+    thead th { background: var(--soft); }
     th:first-child, td:first-child { text-align: left; }
+    tbody tr:last-child > * { border-bottom: 0; }
+    #periodError { color: var(--amber); font-weight: 650; }
     [hidden] { display: none !important; }
+    @media (max-width: 600px) {
+      .wrap { padding: 12px; }
+      .pair { grid-template-columns: 1fr; }
+      .masthead > .row { width: 100%; }
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Dashboard Découpe</h1>
-    <p>Flux de production, volumes par site et qualité</p>
-  </header>
-
-  <main>
-    <div class="panel row">
-      <button id="refresh" type="button">Actualiser</button>
-      <span id="status" class="note" role="status">Chargement des données Découpe…</span>
+    <div class="wrap masthead">
+      <div>
+        <p class="eyebrow">Pilotage production · Tana / Diégo</p>
+        <h1>Dashboard Découpe</h1>
+      </div>
+      <div class="row">
+        <button id="refresh" type="button">Actualiser</button>
+        <span id="status" role="status">Chargement des données Découpe…</span>
+      </div>
     </div>
-
-    <div id="content" hidden>
-      <div class="panel row">
+  </header>
+  <main class="wrap" id="content" hidden>
+    <nav class="row" aria-label="Rubriques">
+      <button type="button" data-page="flux" aria-pressed="true" aria-controls="flux">Vue d’ensemble</button>
+      <button type="button" data-page="agents" aria-pressed="false" aria-controls="agents">Découpeurs</button>
+      <button type="button" data-page="quality" aria-pressed="false" aria-controls="quality">Qualité</button>
+    </nav>
+    <div class="panel">
+      <div class="row filters">
         <label>Du <input id="start" type="date"></label>
         <label>Au <input id="end" type="date"></label>
-        <label>Site <select id="site"></select></label>
-        <label id="groupControl">Graphique
-          <select id="group">
+        <label id="siteControl">Site <select id="site"></select></label>
+        <label id="groupControl">Regroupement          <select id="group">
             <option value="day">Jour</option>
             <option value="week">Semaine</option>
             <option value="month">Mois</option>
@@ -58,54 +112,68 @@
         </label>
         <button id="reset" type="button">Période réalisée</button>
       </div>
-
-      <p class="note">Le filtre Site s’applique au Découpé et à la vue Découpeurs. Prévu, Reçu, QP, RC et RI restent globaux.</p>
-
-      <nav class="row" aria-label="Rubriques">
-        <button type="button" data-page="flux" aria-pressed="true">Vue d’ensemble</button>
-        <button type="button" data-page="agents" aria-pressed="false">Découpeurs</button>
-        <button type="button" data-page="quality" aria-pressed="false">Qualité</button>
-      </nav>
-
-      <p id="periodError" role="status" hidden>Choisis une période valide dans les dates disponibles.</p>
-
-      <section id="flux">
-        <div id="flowKpis" class="kpis"></div>
-        <div class="panel">
-          <h2>Volumes par période</h2>
-          <p class="note">QP : reçu ÷ prévu sur les jours comparables. L’écart est global et n’est pas un stock.</p>
-          <p id="chartStatus" class="note" role="status" hidden></p>
-          <div id="plot" class="plot" hidden>
-            <canvas id="chart" role="img" aria-label="Volumes par période"></canvas>
-          </div>
+      <p id="filterNote" class="note"></p>
+    </div>
+    <p id="periodError" class="panel" role="status" hidden>Choisis une période valide dans les dates disponibles.</p>
+    <section id="flux" aria-label="Vue d’ensemble">
+      <div id="flowKpis" class="grid kpis"></div>
+      <div class="panel">
+        <div class="section-head">
+          <h2>Prévu, reçu et découpé</h2>
+          <p class="note" id="chartNote"></p>
         </div>
-      </section>
-
-      <section id="agents" class="panel" hidden>
-        <h2>Découpeurs par site</h2>
-        <p class="note">Les effectifs sont ceux de la liste au dernier export : un code unique avec un seul site reconnu. Ils ne varient pas avec les dates et ne mesurent pas la présence. Les volumes suivent la période sélectionnée.</p>
-        <p id="agentNotice" class="note" role="status" hidden>Effectifs pas encore publiés. Les volumes sont disponibles.</p>
+        <p id="chartStatus" class="note" role="status" hidden></p>
+        <div id="plot" class="plot" hidden>
+          <canvas id="chart" role="img" aria-label="Volumes prévus, reçus et découpés par période"></canvas>
+        </div>
+      </div>
+      <div class="section-head row spread">
+        <div>
+          <h2>Production par site</h2>
+          <p class="note">Les cartes comparent les sites sur les mêmes dates. Clique sur un site pour filtrer le graphique.</p>
+        </div>
+        <button id="allSites" type="button" hidden>Tous les sites</button>
+      </div>
+      <div id="siteCards" class="grid pair"></div>
+      <p id="noSites" class="note" hidden>Aucun site disponible.</p>
+    </section>
+    <section id="agents" class="panel" aria-labelledby="agentsTitle" hidden>
+      <div class="section-head">
+        <h2 id="agentsTitle">Découpeurs par site</h2>
+        <p class="note">Les effectifs recensés proviennent du dernier export et ne varient pas avec les dates. Ils ne mesurent pas la présence.</p>
+        <p id="agentNotice" class="note" role="status" hidden>Certains effectifs ne sont pas publiés : « — » ne signifie pas zéro.</p>
+      </div>
+      <div class="scroll">
+        <table>
+          <thead><tr>
+            <th scope="col">Site</th>
+            <th scope="col">Découpeurs recensés</th>
+            <th scope="col">Volume découpé</th>
+          </tr></thead>
+          <tbody id="agentRows"></tbody>
+        </table>
+      </div>
+    </section>
+    <section id="quality" aria-label="Qualité" hidden>
+      <div id="qualityKpis" class="grid pair"></div>
+      <div class="panel">
+        <div class="section-head">
+          <h2>Signalements par période</h2>
+          <p class="note">Nombre de lignes datées, sans dédoublonnage. RC : date de découpe. RI : date de lecture.</p>
+        </div>
         <div class="scroll">
-          <table aria-label="Effectifs recensés et volumes découpés par site">
-            <thead>
-              <tr>
-                <th scope="col">Site</th>
-                <th scope="col">Découpeurs recensés</th>
-                <th scope="col">Volume découpé</th>
-              </tr>
-            </thead>
-            <tbody id="agentRows"></tbody>
+          <table>
+            <thead><tr>
+              <th id="qualityPeriod" scope="col">Période</th>
+              <th scope="col">RC</th>
+              <th scope="col">RI</th>
+            </tr></thead>
+            <tbody id="qualityRows"></tbody>
           </table>
         </div>
-      </section>
-
-      <section id="quality" hidden>
-        <div id="qualityKpis" class="kpis"></div>
-        <p class="note">Nombre de lignes datées, sans dédoublonnage. RC : date de découpe. RI : date de lecture.</p>
-      </section>
-    </div>
+      </div>
+    </section>
   </main>
-
   <script>
     const el = id => document.getElementById(id);
     const nf = new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 1 });
@@ -113,20 +181,20 @@
       style: 'percent', minimumFractionDigits: 2, maximumFractionDigits: 2
     });
     const df = new Intl.DateTimeFormat('fr-FR', { dateStyle: 'short', timeZone: 'UTC' });
+    const mf = new Intl.DateTimeFormat('fr-FR', { month: 'long', year: 'numeric', timeZone: 'UTC' });
     const horodatage = new Intl.DateTimeFormat('fr-FR', {
       dateStyle: 'short', timeStyle: 'medium', timeZone: 'Indian/Antananarivo'
     });
     const ordre = new Intl.Collator('fr', { sensitivity: 'base' });
+    const boutons = [...document.querySelectorAll('[data-page]')];
     let source = null;
     let chart = null;
     let page = 'flux';
-
     function dateISO(valeur) {
       if (typeof valeur !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(valeur)) return false;
       const date = new Date(valeur + 'T00:00:00Z');
       return Number.isFinite(date.getTime()) && date.toISOString().slice(0, 10) === valeur;
     }
-
     function verifierDonnees(resultat) {
       if (!resultat || !['production', 'flux', 'rc', 'ri'].every(cle => Array.isArray(resultat[cle])) ||
           !['debut', 'fin', 'finPrevision'].every(cle => dateISO(resultat[cle])) ||
@@ -141,28 +209,37 @@
         throw new Error('Ligne invalide dans data.json.');
       }
     }
-
-    function periodeRealisee() {
-      if (!source) return;
-      el('start').value = source.debut;
-      el('end').value = source.fin;
-      render();
+    function afficherValeur(valeur, format = nf) {
+      return Number.isFinite(valeur) ? format.format(valeur) : '—';
     }
-
-    function carte(conteneur, titre, valeur, format = nf) {
-      const box = document.createElement('div');
-      box.className = 'kpi';
-      const chiffre = document.createElement('strong');
-      chiffre.textContent = Number.isFinite(valeur) ? format.format(valeur) : '—';
-      box.append(document.createTextNode(titre), chiffre);
+    function texte(balise, contenu, classe) {
+      const element = document.createElement(balise);
+      if (classe) element.className = classe;
+      element.textContent = contenu;
+      return element;
+    }
+    function carte(conteneur, titre, valeur, options = {}) {
+      const { detail = '', format = nf, classe = '', action = null } = options;
+      const box = document.createElement(action ? 'button' : 'div');
+      box.className = ['kpi', classe].filter(Boolean).join(' ');
+      if (action) {
+        box.type = 'button';
+        box.addEventListener('click', action);
+      }
+      box.append(texte('span', titre), texte('strong', afficherValeur(valeur, format)));
+      if (detail) box.append(texte('span', detail, 'note'));
       conteneur.append(box);
     }
-
     function total(lignes, champ) {
-      const valeurs = lignes.map(ligne => ligne[champ]).filter(Number.isFinite);
-      return valeurs.length ? valeurs.reduce((a, b) => a + b, 0) : null;
+      let somme = 0;
+      let connue = false;
+      for (const ligne of lignes) {
+        if (!Number.isFinite(ligne[champ])) continue;
+        connue = true;
+        somme += ligne[champ];
+      }
+      return connue ? somme : null;
     }
-
     function periode(cle) {
       const mode = el('group').value;
       if (mode === 'month') return cle.slice(0, 7);
@@ -171,20 +248,21 @@
       date.setUTCDate(date.getUTCDate() - (date.getUTCDay() + 6) % 7);
       return date.toISOString().slice(0, 10);
     }
-
-    function dessiner(series) {
-      const message = el('chartStatus');
-      const zone = el('plot');
+    function libellePeriode(cle) {
+      return cle.length === 7
+        ? mf.format(new Date(cle + '-01T00:00:00Z'))
+        : df.format(new Date(cle + 'T00:00:00Z'));
+    }
+    function arreterGraphique() {
       if (chart) {
         chart.destroy();
         chart = null;
       }
-      zone.hidden = true;
-      if (!window.Chart) {
-        message.textContent = 'Graphique indisponible. Les indicateurs restent accessibles.';
-        message.hidden = false;
-        return;
-      }
+      el('plot').hidden = true;
+    }
+    function dessiner(series) {
+      arreterGraphique();
+      const message = el('chartStatus');
       const groupes = series.map(serie => {
         const valeurs = new Map();
         for (const ligne of serie.lignes) {
@@ -196,20 +274,20 @@
         return valeurs;
       });
       const cles = [...new Set(groupes.flatMap(groupe => [...groupe.keys()]))].sort();
-      if (!cles.length) {
-        message.textContent = 'Aucun volume sur la période sélectionnée.';
+      if (!cles.length || !window.Chart) {
+        message.textContent = !cles.length
+          ? 'Aucun volume publié sur cette période.'
+          : 'Graphique indisponible. Les indicateurs restent accessibles.';
         message.hidden = false;
         return;
       }
       message.hidden = true;
-      zone.hidden = false;
+      el('plot').hidden = false;
       try {
         chart = new window.Chart(el('chart'), {
           type: 'bar',
           data: {
-            labels: cles.map(cle => cle.length === 7
-              ? `${cle.slice(5)}/${cle.slice(0, 4)}`
-              : df.format(new Date(cle + 'T00:00:00Z'))),
+            labels: cles.map(libellePeriode),
             datasets: series.map((serie, index) => ({
               label: serie.label,
               backgroundColor: serie.couleur,
@@ -221,55 +299,113 @@
             responsive: true,
             maintainAspectRatio: false,
             animation: false,
-            scales: { y: { beginAtZero: true } },
+            interaction: { mode: 'index', intersect: false },
+            scales: {
+              x: { grid: { display: false }, ticks: { maxRotation: 0, autoSkip: true } },
+              y: { beginAtZero: true, ticks: { callback: valeur => nf.format(valeur) } }
+            },
             plugins: {
               legend: { position: 'bottom' },
-              tooltip: { mode: 'index', intersect: false }
+              tooltip: {
+                callbacks: {
+                  label: contexte => contexte.dataset.label + ' : ' + afficherValeur(contexte.parsed.y)
+                }
+              }
             }
           }
         });
       } catch (erreur) {
-        zone.hidden = true;
+        if (window.Chart.getChart) window.Chart.getChart(el('chart'))?.destroy();
+        arreterGraphique();
         message.textContent = 'Graphique indisponible. Les indicateurs restent accessibles.';
         message.hidden = false;
       }
     }
-
     function effectifs() {
       const lignes = Array.isArray(source.effectifsParSite) ? source.effectifsParSite : [];
       return new Map(lignes
         .filter(r => r && ['Diégo', 'Tana'].includes(r.site) && Number.isSafeInteger(r.recenses) && r.recenses >= 0)
         .map(r => [r.site, r.recenses]));
     }
-
-    function afficherDecoupeurs(production, site) {
-      const liste = effectifs();
+    function sitesDisponibles(liste) {
+      return [...new Set([...source.production.map(ligne => ligne.site), ...liste.keys()])]
+        .sort(ordre.compare);
+    }
+    function volumesParSite(production) {
       const volumes = new Map();
       for (const ligne of production) {
         volumes.set(ligne.site, (volumes.get(ligne.site) ?? 0) + ligne.volume);
       }
-      const sites = site ? [site] : [...new Set([
-        ...liste.keys(), ...source.production.map(ligne => ligne.site)
-      ])].sort(ordre.compare);
-      el('agentNotice').hidden = liste.size > 0;
-      const corps = el('agentRows');
-      corps.replaceChildren();
+      return volumes;
+    }
+    function choisirSite(site) {
+      el('site').value = site;
+      render();
+    }
+    function afficherSites(sites, liste, volumes, site) {
+      const zone = el('siteCards');
+      zone.replaceChildren();
+      el('noSites').hidden = sites.length > 0;
+      el('allSites').hidden = !site;
       for (const nom of sites) {
-        const ligne = corps.insertRow();
-        const titre = document.createElement('th');
-        titre.scope = 'row';
-        titre.textContent = nom;
-        ligne.append(titre);
-        ligne.insertCell().textContent = liste.has(nom) ? nf.format(liste.get(nom)) : '—';
-        ligne.insertCell().textContent = volumes.has(nom) ? nf.format(volumes.get(nom)) : '—';
-      }
-      if (!sites.length) {
-        const cellule = corps.insertRow().insertCell();
-        cellule.colSpan = 3;
-        cellule.textContent = 'Aucun site disponible.';
+        const box = document.createElement('button');
+        box.type = 'button';
+        box.className = 'site-card';
+        box.setAttribute('aria-pressed', String(nom === site));
+        box.append(
+          texte('span', nom, 'site-name'),
+          texte('strong', afficherValeur(volumes.get(nom))),
+          texte('span', 'Volume découpé sur la période', 'note'),
+          texte('span', 'Découpeurs recensés : ' + afficherValeur(liste.get(nom)), 'note')
+        );
+        box.addEventListener('click', () => {
+          choisirSite(nom === site ? '' : nom);
+          const bouton = [...zone.children][sites.indexOf(nom)];
+          bouton?.focus();
+        });
+        zone.append(box);
       }
     }
-
+    function ligneVide(corps, colonnes, message) {
+      const cellule = corps.insertRow().insertCell();
+      cellule.colSpan = colonnes;
+      cellule.textContent = message;
+    }
+    function ajouterLigne(corps, titre, valeurs) {
+      const ligne = corps.insertRow();
+      const entete = texte('th', titre);
+      entete.scope = 'row';
+      ligne.append(entete);
+      for (const valeur of valeurs) ligne.insertCell().textContent = afficherValeur(valeur);
+    }
+    function afficherDecoupeurs(sites, liste, volumes) {
+      el('agentNotice').hidden = !sites.some(nom => !liste.has(nom));
+      const corps = el('agentRows');
+      corps.replaceChildren();
+      for (const nom of sites) ajouterLigne(corps, nom, [liste.get(nom), volumes.get(nom)]);
+      if (!sites.length) ligneVide(corps, 3, 'Aucun site disponible.');
+    }
+    function afficherQualite(rc, ri) {
+      const cartes = el('qualityKpis');
+      cartes.replaceChildren();
+      carte(cartes, 'Signalements RC', rc.length, { classe: 'qual', detail: 'Comptés à la date de découpe' });
+      carte(cartes, 'Signalements RI', ri.length, { classe: 'qual', detail: 'Comptés à la date de lecture' });
+      const groupes = new Map();
+      for (const [index, dates] of [rc, ri].entries()) {
+        for (const date of dates) {
+          const cle = periode(date);
+          if (!groupes.has(cle)) groupes.set(cle, [0, 0]);
+          groupes.get(cle)[index]++;
+        }
+      }
+      const corps = el('qualityRows');
+      corps.replaceChildren();
+      el('qualityPeriod').textContent = el('group').value === 'week' ? 'Semaine du' : 'Période';
+      for (const cle of [...groupes.keys()].sort().reverse()) {
+        ajouterLigne(corps, libellePeriode(cle), groupes.get(cle));
+      }
+      if (!groupes.size) ligneVide(corps, 3, 'Aucun signalement sur la période.');
+    }
     function render() {
       if (!source) return;
       const debut = el('start').value;
@@ -277,52 +413,81 @@
       const valide = dateISO(debut) && dateISO(fin) &&
         debut <= fin && debut >= source.debut && fin <= source.finPrevision;
       el('periodError').hidden = valide;
-      el('groupControl').hidden = page !== 'flux';
+      el('siteControl').hidden = page === 'quality';
+      el('groupControl').hidden = page === 'agents';
+      el('filterNote').textContent = {
+        flux: 'Le filtre Site ne change que le Découpé. Prévu, Reçu, QP, RC et RI restent globaux.',
+        agents: 'Le site filtre le tableau. Les dates filtrent les volumes, pas les effectifs recensés.',
+        quality: 'Les signalements qualité sont globaux, quel que soit le site sélectionné dans les autres vues.'
+      }[page];
       for (const rubrique of ['flux', 'agents', 'quality']) {
         el(rubrique).hidden = !valide || rubrique !== page;
       }
+      if (!valide || page !== 'flux') arreterGraphique();
       if (!valide) return;
       const dansPeriode = date => date >= debut && date <= fin;
       const site = el('site').value;
-
       if (page === 'quality') {
-        const cartes = el('qualityKpis');
-        cartes.replaceChildren();
-        carte(cartes, 'Signalements RC', source.rc.filter(dansPeriode).length);
-        carte(cartes, 'Signalements RI', source.ri.filter(dansPeriode).length);
+        afficherQualite(source.rc.filter(dansPeriode), source.ri.filter(dansPeriode));
         return;
       }
-
       const production = source.production.filter(ligne => dansPeriode(ligne.date));
-      const decoupe = production.filter(ligne => !site || ligne.site === site);
+      const liste = effectifs();
+      const sites = sitesDisponibles(liste);
+      const volumes = volumesParSite(production);
       if (page === 'agents') {
-        afficherDecoupeurs(decoupe, site);
+        afficherDecoupeurs(site ? [site] : sites, liste, volumes);
         return;
       }
-
       const flux = source.flux.filter(ligne => dansPeriode(ligne.date));
+      const decoupe = site ? production.filter(ligne => ligne.site === site) : production;
       const prevu = total(flux, 'prevu');
       const recu = total(flux, 'recu');
-      const decoupeGlobal = total(production, 'volume');
+      const realise = total(decoupe, 'volume');
       const comparables = flux.filter(r => Number.isFinite(r.prevu) && r.prevu > 0 && Number.isFinite(r.recu));
       const qp = comparables.length ? total(comparables, 'recu') / total(comparables, 'prevu') : null;
-      const libelle = site ? `Découpé · ${site}` : 'Découpé global';
+      const libelle = site ? 'Découpé · ' + site : 'Découpé global';
       const cartes = el('flowKpis');
       cartes.replaceChildren();
       carte(cartes, 'Prévu global', prevu);
       carte(cartes, 'Reçu global', recu);
-      carte(cartes, libelle, total(decoupe, 'volume'));
-      carte(cartes, 'QP globale', qp, pf);
-      if (!site) {
-        carte(cartes, 'Écart Découpé − Reçu', decoupeGlobal === null || recu === null ? null : decoupeGlobal - recu);
+      carte(cartes, libelle, realise, { classe: 'prod' });
+      carte(cartes, 'QP globale', qp, { format: pf, detail: 'Reçu ÷ prévu sur les jours comparables' });
+      carte(cartes, 'Signalements RC', source.rc.filter(dansPeriode).length, {
+        classe: 'qual', detail: 'Voir le détail qualité', action: () => ouvrirPage('quality', true)
+      });
+      carte(cartes, 'Signalements RI', source.ri.filter(dansPeriode).length, {
+        classe: 'qual', detail: 'Voir le détail qualité', action: () => ouvrirPage('quality', true)
+      });
+      const notes = [];
+      if (el('group').value === 'week') notes.push('Semaines regroupées à partir du lundi.');
+      if (!site && Number.isFinite(realise) && Number.isFinite(recu)) {
+        notes.push('Écart global Découpé − Reçu : ' + nf.format(realise - recu) + '. Cet écart ne mesure pas un stock.');
       }
+      if (site) notes.push('Prévu et Reçu restent globaux ; seul le Découpé représente ' + site + '.');
+      el('chartNote').textContent = notes.join(' ');
       dessiner([
-        { label: 'Prévu global', lignes: flux, champ: 'prevu', couleur: '#a9b8cf' },
-        { label: 'Reçu global', lignes: flux, champ: 'recu', couleur: '#4a89c4' },
-        { label: libelle, lignes: decoupe, champ: 'volume', couleur: '#3fc7ab' }
+        { label: 'Prévu global', lignes: flux, champ: 'prevu', couleur: '#aabbd0' },
+        { label: 'Reçu global', lignes: flux, champ: 'recu', couleur: '#367bb7' },
+        { label: libelle, lignes: decoupe, champ: 'volume', couleur: '#168570' }
       ]);
+      afficherSites(sites, liste, volumes, site);
     }
-
+    function ouvrirPage(nom, avecFocus = false) {
+      page = nom;
+      for (const bouton of boutons) {
+        const actif = bouton.dataset.page === page;
+        bouton.setAttribute('aria-pressed', String(actif));
+        if (actif && avecFocus) bouton.focus();
+      }
+      render();
+    }
+    function periodeRealisee() {
+      if (!source) return;
+      el('start').value = source.debut;
+      el('end').value = source.fin;
+      render();
+    }
     async function charger() {
       el('refresh').disabled = true;
       el('status').textContent = 'Lecture de data.json…';
@@ -332,13 +497,10 @@
         const resultat = await reponse.json();
         verifierDonnees(resultat);
         const premierChargement = !source;
-        const suivreFin = el('end').value === source?.fin;
+        const suivreFin = !premierChargement && el('end').value === source.fin;
         const ancienSite = el('site').value;
         source = resultat;
-
-        const sites = [...new Set([
-          ...source.production.map(ligne => ligne.site), ...effectifs().keys()
-        ])].sort(ordre.compare);
+        const sites = sitesDisponibles(effectifs());
         el('site').replaceChildren(new Option('Tous les sites', ''));
         for (const site of sites) el('site').add(new Option(site, site));
         if (sites.includes(ancienSite)) el('site').value = ancienSite;
@@ -351,11 +513,12 @@
           const date = el(id).value;
           return !date || date < source.debut || date > source.finPrevision;
         });
-        const datePublication = new Date(source.ts);
+        const ts = source.ts;
+        const publication = typeof ts === 'number' || typeof ts === 'string' ? new Date(ts) : null;
         el('content').hidden = false;
-        el('status').textContent = Number.isFinite(source.ts) && Number.isFinite(datePublication.getTime())
-          ? 'Données publiées le ' + horodatage.format(datePublication) + ' (heure de Madagascar).'
-          : 'Données chargées.';
+        el('status').textContent = publication && Number.isFinite(publication.getTime())
+          ? 'Données publiées le ' + horodatage.format(publication) + ' (heure de Madagascar).'
+          : 'Données chargées. Date de publication indisponible.';
         if (premierChargement || horsLimites || el('start').value > el('end').value) {
           periodeRealisee();
         } else {
@@ -368,18 +531,14 @@
         el('refresh').disabled = false;
       }
     }
-
     for (const id of ['start', 'end', 'site', 'group']) el(id).addEventListener('change', render);
+    for (const bouton of boutons) bouton.addEventListener('click', () => ouvrirPage(bouton.dataset.page));
     el('reset').addEventListener('click', periodeRealisee);
     el('refresh').addEventListener('click', charger);
-    const boutons = [...document.querySelectorAll('[data-page]')];
-    for (const bouton of boutons) {
-      bouton.addEventListener('click', () => {
-        page = bouton.dataset.page;
-        for (const autre of boutons) autre.setAttribute('aria-pressed', String(autre === bouton));
-        render();
-      });
-    }
+    el('allSites').addEventListener('click', () => {
+      choisirSite('');
+      el('site').focus();
+    });
     window.addEventListener('DOMContentLoaded', charger);
   </script>
 </body>
