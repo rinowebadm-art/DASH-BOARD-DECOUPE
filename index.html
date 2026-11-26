@@ -407,7 +407,7 @@
       </div>
     </section>
     <section id="quality" aria-label="Qualité" hidden>
-      <div id="qualityKpis" class="grid pair"></div>
+      <div id="qualityKpis" class="grid kpis"></div>      <div class="panel">        <div class="section-head">          <h2>Non-qualité par trigramme</h2>          <p class="note">Nb NQ = RC + RI, sans dédoublonnage. Taux NQ = Nb NQ ÷ volume traité sur la période sélectionnée.</p>        </div>        <div class="scroll">          <table>            <thead><tr>              <th scope="col">Trigramme</th>              <th scope="col">Agent</th>              <th scope="col">RC</th>              <th scope="col">RI</th>              <th scope="col">Nb NQ</th>              <th scope="col">Traité</th>              <th scope="col">Taux NQ</th>            </tr></thead>            <tbody id="qualityAgentRows"></tbody>          </table>        </div>      </div>
       <div class="panel">
         <div class="section-head">
           <h2>Signalements par période</h2>
@@ -637,11 +637,78 @@
       for (const nom of sites) ajouterLigne(corps, nom, [liste.get(nom), volumes.get(nom)]);
       if (!sites.length) ligneVide(corps, 3, 'Aucun site disponible.');
     }
+    function afficherQualiteParAgent(rc, ri) {
+      const debut = el('start').value;
+      const fin = el('end').value;
+      const dansPeriode = date => date >= debut && date <= fin;
+      const traiteGlobal = total(
+        source.production.filter(ligne => dansPeriode(ligne.date)),
+        'volume'
+      );
+      const nqGlobal = rc.length + ri.length;
+      carte(el('qualityKpis'), 'Taux de non-qualité global',
+        traiteGlobal > 0 ? nqGlobal / traiteGlobal : null, {
+          classe: 'qual',
+          format: pf,
+          detail: nf.format(nqGlobal) + ' NQ ÷ ' +
+            afficherValeur(traiteGlobal) + ' traités · tous sites'
+        }
+      );
+      const corps = el('qualityAgentRows');
+      corps.replaceChildren();
+      if (![source.productionParAgent, source.rcDetail, source.riDetail].every(Array.isArray)) {
+        ligneVide(corps, 7, 'Le détail qualité par trigramme n’a pas encore été publié.');
+        return;
+      }
+      const agents = new Map();
+      function fiche(ligne) {
+        const code = String(ligne.agent ?? '').trim().toUpperCase();
+        const trigramme = /^[A-Z]{3}$/.test(code) ? code : '';
+        if (!agents.has(trigramme)) {
+          agents.set(trigramme, { trigramme, nom: '', rc: 0, ri: 0, traite: 0 });
+        }
+        const agent = agents.get(trigramme);
+        const nom = [ligne.nom, ligne.prenoms].filter(Boolean).join(' ').trim();
+        if (nom) agent.nom = nom;
+        return agent;
+      }
+      for (const ligne of source.productionParAgent) {
+        if (dansPeriode(ligne.date) && Number.isFinite(ligne.volume)) {
+          fiche(ligne).traite += ligne.volume;
+        }
+      }
+      for (const [type, lignes] of [['rc', source.rcDetail], ['ri', source.riDetail]]) {
+        for (const ligne of lignes) {
+          if (dansPeriode(ligne.date)) fiche(ligne)[type]++;
+        }
+      }
+      for (const agent of [...agents.values()].sort((a, b) =>
+        Number(!a.trigramme) - Number(!b.trigramme) ||
+        ordre.compare(a.trigramme, b.trigramme)
+      )) {
+        const nq = agent.rc + agent.ri;
+        const ligne = corps.insertRow();
+        const entete = texte('th', agent.trigramme || 'Non attribué');
+        entete.scope = 'row';
+        ligne.append(entete);
+        for (const valeur of [
+          agent.nom || '—',
+          nf.format(agent.rc),
+          nf.format(agent.ri),
+          nf.format(nq),
+          agent.trigramme ? nf.format(agent.traite) : '—',
+          agent.trigramme && agent.traite > 0 ? pf.format(nq / agent.traite) : '—'
+        ]) {
+          ligne.insertCell().textContent = valeur;
+        }
+      }
+      if (!agents.size) ligneVide(corps, 7, 'Aucune donnée sur cette période.');
+    }
     function afficherQualite(rc, ri) {
       const cartes = el('qualityKpis');
       cartes.replaceChildren();
       carte(cartes, 'Signalements RC', rc.length, { classe: 'qual', detail: 'Comptés à la date de découpe' });
-      carte(cartes, 'Signalements RI', ri.length, { classe: 'qual', detail: 'Comptés à la date de lecture' });
+      carte(cartes, 'Signalements RI', ri.length, { classe: 'qual', detail: 'Comptés à la date de lecture' });      afficherQualiteParAgent(rc, ri);      const groupes = new Map();
       const groupes = new Map();
       for (const [index, dates] of [rc, ri].entries()) {
         for (const date of dates) {
