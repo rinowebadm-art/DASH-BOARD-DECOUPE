@@ -799,7 +799,7 @@
     <p class="note" role="status"></p>    
     <div class="scroll">      
     <table>        
-    <thead><tr><th>Agent</th><th>Site</th><th>Volume découpé</th></tr></thead>        
+    <thead><tr><th>Trigramme</th><th>Agent</th><th>Site</th><th>Volume découpé</th></tr></thead>        
     <tbody></tbody>      
     </table>    
     </div>`;  onglet.append(bloc);  
@@ -822,11 +822,11 @@ if (debut && ligne.date < debut)
 continue;      if (fin && ligne.date > fin) 
 continue;      if (filtrerSite && normaliser(ligne.site) !== site &&          normaliser(ligne.site) !== normaliser(choix.value)) 
 continue;      const cle = `${ligne.agent}|${ligne.site}`;      
-if (!totaux.has(cle)) {        totaux.set(cle, { agent: ligne.agent, site: ligne.site, volume: 0 });      }      totaux.get(cle).volume += ligne.volume;    }    
+if (!totaux.has(cle)) {        totaux.set(cle, {          agent: ligne.agent,          nomComplet: [ligne.nom, ligne.prenoms].filter(Boolean).join(' '),          site: ligne.site,          volume: 0        });      }      totaux.get(cle).volume += ligne.volume;    }    
 const resultats = [...totaux.values()].sort((a, b) =>      b.volume - a.volume || a.agent.localeCompare(b.agent));    corps.replaceChildren();    
 for (const ligne of resultats) {      const tr = document.createElement('tr');      
 const agent = document.createElement('th');      agent.scope = 'row';      agent.textContent = ligne.agent;      tr.append(agent);      
-for (const valeur of [ligne.site, nombre.format(ligne.volume)]) {        
+for (const valeur of [ligne.nomComplet || 'Non renseigné', ligne.site, nombre.format(ligne.volume)]) {       
 const td = document.createElement('td');        
 td.textContent = valeur;        
 tr.append(td);      }      
