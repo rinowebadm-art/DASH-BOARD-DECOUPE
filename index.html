@@ -708,9 +708,7 @@
       const cartes = el('qualityKpis');
       cartes.replaceChildren();
       carte(cartes, 'Signalements RC', rc.length, { classe: 'qual', detail: 'Comptés à la date de découpe' });
-      carte(cartes, 'Signalements RI', ri.length, { classe: 'qual', detail: 'Comptés à la date de lecture' });      afficherQualiteParAgent(rc, ri);      const groupes = new Map();
-      const groupes = new Map();
-      for (const [index, dates] of [rc, ri].entries()) {
+      carte(cartes, 'Signalements RI', ri.length, { classe: 'qual', detail: 'Comptés à la date de lecture' });      afficherQualiteParAgent(rc, ri);      const groupes = new Map();      for (const [index, dates] of [rc, ri].entries()) {
         for (const date of dates) {
           const cle = periode(date);
           if (!groupes.has(cle)) groupes.set(cle, [0, 0]);
