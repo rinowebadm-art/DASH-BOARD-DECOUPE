@@ -1377,5 +1377,15 @@
   "debut": "2026-11-01",
   "fin": "2026-11-25",
   "finPrevision": "2026-11-29",
-  "ts": 1795617369485
+  "effectifsParSite": [
+    {
+      "site": "Diégo",
+      "recenses": 25
+    },
+    {
+      "site": "Tana",
+      "recenses": 23
+    }
+  ],
+  "ts": 1795680260936
 }
